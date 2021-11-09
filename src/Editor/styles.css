@@ -2,34 +2,72 @@
   height: 100%;
   overflow: auto;
   box-sizing: border-box;
+  border: 1px solid #F1F1F1;
+  height: calc(64vh - 7.45em);
+  padding: 0 1.5em;
 }
+
+.rdw-editor-main:focus-within,
+.rdw-editor-main:hover {
+  border-color: #000000;
+}
+
 .rdw-editor-toolbar {
-  padding: 6px 5px 0;
-  border-radius: 2px;
+  padding: 0.5em;
   border: 1px solid #F1F1F1;
   display: flex;
   justify-content: flex-start;
   background: white;
   flex-wrap: wrap;
   font-size: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   user-select: none;
+  gap: 0.5em;
 }
-.public-DraftStyleDefault-block {
-  margin: 1em 0;
+
+.rdw-editor-toolbar:hover {
+  border-color: #000000;
 }
+
+.public-DraftStyleDefault-block,
+.public-DraftEditorPlaceholder-root {
+  margin: 1.5em 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.public-DraftEditorPlaceholder-root {
+  margin: 0;
+}
+
+.DraftEditor-editorContainer,
+.DraftEditor-root,
+.public-DraftEditor-content {
+  height: calc(64vh - 11em) !important;
+}
+
+h1 .public-DraftStyleDefault-block {
+  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
 .rdw-editor-wrapper:focus {
   outline: none;
 }
+
 .rdw-editor-wrapper {
   box-sizing: content-box;
+  width: 100%;
 }
+
 .rdw-editor-main blockquote {
-  border-left: 5px solid #f1f1f1;
+  border-left: 5px solid #F1F1F1;
   padding-left: 5px;
 }
+
 .rdw-editor-main pre {
-  background: #f1f1f1;
-  border-radius: 3px;
+  background: #F1F1F1;
   padding: 1px 10px;
 }

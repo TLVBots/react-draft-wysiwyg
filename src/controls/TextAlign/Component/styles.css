@@ -1,8 +1,8 @@
 .rdw-text-align-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
 .rdw-text-align-dropdown {
   width: 50px;

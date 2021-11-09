@@ -1,24 +1,21 @@
 .rdw-colorpicker-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
   position: relative;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
 .rdw-colorpicker-modal {
   position: absolute;
   top: 35px;
-  left: 5px;
   display: flex;
   flex-direction: column;
   width: 175px;
   height: 175px;
   border: 1px solid #F1F1F1;
   padding: 15px;
-  border-radius: 2px;
   z-index: 100;
   background: white;
-  box-shadow: 3px 3px 5px #BFBDBD;
 }
 .rdw-colorpicker-modal-header {
   display: flex;
@@ -55,14 +52,13 @@
   width: 22px;
   height: 22px;
   min-width: 22px;
-  box-shadow: 1px 2px 1px #BFBDBD inset;
 }
 .rdw-colorpicker-option:hover {
-  box-shadow: 1px 2px 1px #BFBDBD;
+  outline: 1px solid #000000;
 }
 .rdw-colorpicker-option:active {
-  box-shadow: -1px -2px 1px #BFBDBD;
+  outline: 1px solid #000000;
 }
 .rdw-colorpicker-option-active {
-  box-shadow: 0px 0px 2px 2px #BFBDBD;
+  outline: 1px solid #000000;
 }

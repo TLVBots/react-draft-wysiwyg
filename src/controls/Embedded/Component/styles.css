@@ -1,25 +1,22 @@
 .rdw-embedded-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
   position: relative;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
 .rdw-embedded-modal {
   position: absolute;
   top: 35px;
-  left: 5px;
   display: flex;
   flex-direction: column;
   width: 235px;
   height: 180px;
   border: 1px solid #F1F1F1;
   padding: 15px;
-  border-radius: 2px;
   z-index: 100;
   background: white;
   justify-content: space-between;
-  box-shadow: 3px 3px 5px #BFBDBD;
 }
 .rdw-embedded-modal-header {
   font-size: 15px;
@@ -35,7 +32,7 @@
 }
 .rdw-embedded-modal-header-label {
   width: 95px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #F1F1F1;
   margin-top: 5px;
   background: #6EB8D4;
   border-bottom: 2px solid #0a66b7;
@@ -49,7 +46,6 @@
   height: 35px;
   margin: 10px 0;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   font-size: 15px;
   padding: 0 5px;
 }
@@ -69,16 +65,15 @@
   width: 75px;
   height: 30px;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   cursor: pointer;
   background: white;
   text-transform: capitalize;
 }
 .rdw-embedded-modal-btn:hover {
-  box-shadow: 1px 1px 0px #BFBDBD;
+  border-color: #000000;
 }
 .rdw-embedded-modal-btn:active {
-  box-shadow: 1px 1px 0px #BFBDBD inset;
+  border-color: #000000;
 }
 .rdw-embedded-modal-btn:focus {
   outline: none !important;
@@ -96,7 +91,6 @@
   width: 80%;
   height: 20px;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   font-size: 12px;
 }
 .rdw-embedded-modal-size-input:focus {

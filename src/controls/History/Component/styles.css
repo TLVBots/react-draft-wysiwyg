@@ -1,14 +1,16 @@
 .rdw-history-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
+
 .rdw-history-dropdownoption {
   height: 40px;
   display: flex;
   justify-content: center;
 }
+
 .rdw-history-dropdown {
   width: 50px;
 }

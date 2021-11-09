@@ -1,12 +1,14 @@
 .rdw-inline-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
+
 .rdw-inline-dropdown {
   width: 50px;
 }
+
 .rdw-inline-dropdownoption {
   height: 40px;
   display: flex;

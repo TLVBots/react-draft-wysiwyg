@@ -1,23 +1,20 @@
 .rdw-image-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
   position: relative;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
 .rdw-image-modal {
   position: absolute;
   top: 35px;
-  left: 5px;
   display: flex;
   flex-direction: column;
   width: 235px;
   border: 1px solid #F1F1F1;
   padding: 15px;
-  border-radius: 2px;
   z-index: 100;
   background: white;
-  box-shadow: 3px 3px 5px #BFBDBD;
 }
 .rdw-image-modal-header {
   font-size: 15px;
@@ -34,8 +31,8 @@
 }
 .rdw-image-modal-header-label {
   width: 80px;
-  background: #f1f1f1;
-  border: 1px solid #f1f1f1;
+  background: #F1F1F1;
+  border: 1px solid #F1F1F1;
   margin-top: 5px;
 }
 .rdw-image-modal-header-label-highlighted {
@@ -51,7 +48,7 @@
   font-size: 15px;
   align-items: center;
   justify-content: center;
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   outline: 2px dashed gray;
   outline-offset: -10px;
   margin: 10px 0;
@@ -93,7 +90,6 @@
   height: 35px;
   margin: 15px 0 12px;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   font-size: 15px;
   padding: 0 5px;
 }
@@ -108,16 +104,15 @@
   width: 75px;
   height: 30px;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   cursor: pointer;
   background: white;
   text-transform: capitalize;
 }
 .rdw-image-modal-btn:hover {
-  box-shadow: 1px 1px 0px #BFBDBD;
+  border-color: #000000;
 }
 .rdw-image-modal-btn:active {
-  box-shadow: 1px 1px 0px #BFBDBD inset;
+  border-color: #000000;
 }
 .rdw-image-modal-btn:focus {
   outline: none !important;
@@ -137,7 +132,6 @@
   width: 70%;
   height: 20px;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   font-size: 12px;
   margin-left: 5px;
 }
@@ -157,7 +151,6 @@
   width: 40%;
   height: 20px;
   border: 1px solid #F1F1F1;
-  border-radius: 2px;
   font-size: 12px;
 }
 .rdw-image-modal-size-input:focus {
